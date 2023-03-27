@@ -1,0 +1,354 @@
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.headline,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  mix-blend-mode: normal;
+}
+.supportingText {
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  color: var(--app20-sys-light-on-surface-variant);
+  text-align: left;
+}
+.content {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.buildingBlocksstateLayer1 {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.leadingElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.overline {
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  display: none;
+}
+.headline1,
+.overline,
+.supportingText1 {
+  align-self: stretch;
+  position: relative;
+}
+.headline1 {
+  font-size: var(--m3-body-large-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: var(--app20-sys-light-on-surface);
+}
+.supportingText1 {
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  display: none;
+}
+.content1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.metadata {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  display: none;
+}
+.iconsarrowRight24px {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.trailingElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--m3-label-small-size);
+}
+.divider1,
+.stateLayer {
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.stateLayer {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.divider1 {
+  position: relative;
+  border-top: 1px solid var(--app20-sys-light-outline-variant);
+  height: 1px;
+}
+.divider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-base);
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+.listItem1,
+.trailingElement1 {
+  display: flex;
+  align-items: center;
+}
+.listItem1 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+}
+.trailingElement1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--m3-label-small-size);
+  color: var(--app20-sys-light-on-surface-variant);
+}
+.divider5 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-outline-variant);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.initial {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.buildingBlocksmonogram {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary-container);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.leadingElement3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--m3-sys-light-on-primary-container);
+}
+.headline4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--m3-body-large-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: var(--m3-sys-light-on-surface);
+}
+.content4 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+}
+.container {
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--m3-sys-light-primary);
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.iconscheckSmall {
+  position: absolute;
+  margin: 0 !important;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.checkboxes,
+.stateLayer3,
+.stateLayer4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.stateLayer4 {
+  border-radius: var(--br-81xl);
+  padding: var(--padding-2xs);
+  justify-content: center;
+  position: relative;
+}
+.checkboxes,
+.stateLayer3 {
+  flex-shrink: 0;
+}
+.checkboxes {
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+}
+.stateLayer3 {
+  align-self: stretch;
+  height: 56px;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.horizontalfullWidth {
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+.horizontalfullWidth,
+.list,
+.listItem4 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.listItem4 {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--m3-body-large-size);
+  color: var(--m3-sys-light-on-surface-variant);
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.stateLayer21 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+}
+.action2 {
+  overflow: hidden;
+  display: none;
+}
+.action1,
+.action2 {
+  border-radius: var(--br-81xl);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.action1,
+.actions,
+.listDialog {
+  overflow: hidden;
+  display: flex;
+}
+.actions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-5xl)
+    var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+  font-size: var(--m3-label-large-size);
+  color: var(--app20-sys-light-primary);
+}
+.listDialog {
+  position: absolute;
+  top: 163px;
+  left: 24px;
+  border-radius: var(--br-9xl);
+  background: linear-gradient(rgba(43, 107, 40, 0.11), rgba(43, 107, 40, 0.11)),
+    #fcfdf6;
+  width: 312px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.tiendaContacto {
+  position: relative;
+  width: 360px;
+  height: 800px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--m3-headline-small-size);
+  color: var(--app20-sys-light-on-surface);
+  font-family: var(--m3-label-large);
+}

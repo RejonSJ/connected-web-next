@@ -1,0 +1,121 @@
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.headline,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  mix-blend-mode: normal;
+}
+.supportingText {
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  color: var(--app20-sys-light-on-surface-variant);
+  text-align: left;
+  display: none;
+}
+.textField,
+.textField1,
+.textField2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 156.96px;
+  left: 0;
+}
+.textField1,
+.textField2 {
+  top: 78.48px;
+}
+.textField2 {
+  top: 0;
+}
+.textFieldParent {
+  position: relative;
+  width: 264px;
+  height: 218px;
+  flex-shrink: 0;
+}
+.divider1,
+.titleDescription {
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.titleDescription {
+  height: 360px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-5xl) 28px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.divider1 {
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-outline-variant);
+  height: 1px;
+}
+.divider,
+.horizontalfullWidth {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.divider {
+  padding: var(--padding-base) 0 0;
+  justify-content: flex-start;
+}
+.actions,
+.actions1,
+.basicDialog {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.actions1 {
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-5xl)
+    var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.actions,
+.basicDialog {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.actions {
+  align-self: stretch;
+}
+.basicDialog {
+  position: absolute;
+  top: 288px;
+  left: 564px;
+  border-radius: var(--br-9xl);
+  background: linear-gradient(rgba(43, 107, 40, 0.11), rgba(43, 107, 40, 0.11)),
+    #fcfdf6;
+  width: 312px;
+  height: 448px;
+}
+.editarContrasea {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--m3-headline-small-size);
+  color: var(--app20-sys-light-on-surface);
+  font-family: var(--m3-label-large);
+}

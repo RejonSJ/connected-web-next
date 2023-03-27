@@ -1,0 +1,64 @@
+.image21Icon,
+.image22Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 197.31px;
+  object-fit: cover;
+}
+.image22Icon {
+  top: 197.31px;
+  left: 16.15px;
+  width: 207.69px;
+  height: 56.54px;
+}
+.image21Parent {
+  position: absolute;
+  top: 213px;
+  left: 960px;
+  width: 240px;
+  height: 253.85px;
+  mix-blend-mode: normal;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 793px;
+  height: 1024px;
+  object-fit: cover;
+}
+.textField,
+.textField1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 570px;
+  left: 860px;
+}
+.textField1 {
+  top: 645px;
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 726px;
+  left: 1117px;
+}
+.button1 {
+  left: 876px;
+  cursor: pointer;
+}
+.olvidMiContrasea {
+  position: absolute;
+  top: 790px;
+  left: 1010px;
+}
+.pantallaInicial {
+  position: relative;
+  background-color: var(--app20-sys-light-on-surface);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}

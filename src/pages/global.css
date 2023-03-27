@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --m3-label-large: Roboto;
+
+  /* font sizes */
+  --m3-label-large-size: 14px;
+  --m3-label-small-size: 11px;
+  --m3-body-large-size: 16px;
+  --m3-label-medium-size: 12px;
+  --m3-headline-small-size: 24px;
+  --app20-title-large-size: 22px;
+  --app20-headline-medium-size: 28px;
+  --app20-display-medium-size: 45px;
+
+  /* Colors */
+  --app20-sys-light-primary: #2b6b28;
+  --m3-sys-light-outline-variant: #cac4d0;
+  --app20-sys-light-outline-variant: #c2c8bc;
+  --m3-sys-light-primary: #6750a4;
+  --m3-sys-light-on-surface-variant: #49454f;
+  --app20-sys-light-on-surface-variant: #42493f;
+  --m3-sys-light-outline: #79747e;
+  --color-gray-100: #73796f;
+  --m3-sys-light-on-surface: #1c1b1f;
+  --app20-sys-light-on-surface: #1a1c19;
+  --app20-sys-light-on-secondary-container: #111f0f;
+  --m3-sys-light-primary-container: #eaddff;
+  --m3-sys-light-on-primary-container: #21005d;
+  --app20-sys-light-surface: #fcfdf6;
+  --app20-sys-light-secondary-container: #d6e8ce;
+  --m3-sys-light-tertiary-container: #ffd8e4;
+  --m3-sys-light-on-primary: #fff;
+  --m3-sys-light-surface: #fffbfe;
+  --app20-sys-dark-on-surface: #e2e3dd;
+  --color-gainsboro-100: #dee4d8;
+  --color-lightgreen-100: #92d787;
+  --app20-sys-dark-on-primary: #003a05;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-3xs: 10px;
+  --gap-41xl: 60px;
+  --gap-9xs: 4px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-2xs: 11px;
+  --padding-25xl: 44px;
+  --padding-37xl: 56px;
+  --padding-8xs: 5px;
+  --padding-9xs: 4px;
+
+  /* border radiuses */
+  --br-9xl: 28px;
+  --br-81xl: 100px;
+  --br-11xs: 2px;
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --m3-elevation-light-3: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+}

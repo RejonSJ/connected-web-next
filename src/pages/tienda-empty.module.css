@@ -1,0 +1,235 @@
+.tiendaEmptyChild {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  background-color: var(--app20-sys-light-surface);
+  width: 1360px;
+  height: 1024px;
+}
+.iconsmenu24px {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.container,
+.menu,
+.stateLayer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  flex-direction: column;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.stateLayer1 {
+  flex-direction: row;
+  padding: var(--padding-base);
+}
+.fab,
+.fabElevationOverride {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  flex-direction: row;
+}
+.fab {
+  background-color: var(--m3-sys-light-tertiary-container);
+  box-shadow: var(--m3-elevation-light-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fabElevationOverride {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuFab {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.iconContainer,
+.stateLayer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer2 {
+  padding: var(--padding-9xs) var(--padding-base);
+}
+.iconContainer {
+  border-radius: var(--br-81xl);
+  background-color: var(--app20-sys-light-secondary-container);
+  overflow: hidden;
+}
+.label,
+.segment1 {
+  align-self: stretch;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.segment1 {
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--app20-sys-light-on-secondary-container);
+}
+.bentoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconContainer1,
+.segment2 {
+  display: flex;
+  flex-direction: column;
+}
+.iconContainer1 {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.segment2 {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.segment2,
+.segment3,
+.segment4 {
+  align-self: stretch;
+  height: 56px;
+  flex-shrink: 0;
+  align-items: center;
+}
+.segment3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.segment4 {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+}
+.destinations,
+.navigationRail {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.destinations {
+  width: 80px;
+  overflow: hidden;
+  padding: var(--padding-8xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.navigationRail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1024px;
+  padding: var(--padding-25xl) 0 var(--padding-37xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  font-size: var(--m3-label-medium-size);
+}
+.addBusinessIcon {
+  position: absolute;
+  top: 314px;
+  left: 661px;
+  width: 198px;
+  height: 198px;
+  overflow: hidden;
+}
+.noHayNinguna {
+  position: absolute;
+  top: 516px;
+  left: 554px;
+  font-size: var(--app20-headline-medium-size);
+  line-height: 36px;
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.button1,
+.stateLayer9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer9 {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 647px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  cursor: pointer;
+}
+.button {
+  left: 783px;
+  background-color: var(--app20-sys-light-primary);
+  color: var(--m3-sys-light-on-primary);
+}
+.button1 {
+  left: 566px;
+  border: 1px solid var(--color-gray-100);
+  color: var(--app20-sys-light-primary);
+}
+.tiendaEmpty {
+  position: relative;
+  background-color: var(--app20-sys-light-surface);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--app20-sys-light-on-surface-variant);
+  font-family: var(--m3-label-large);
+}

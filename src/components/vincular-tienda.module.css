@@ -1,0 +1,203 @@
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.headline,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  mix-blend-mode: normal;
+}
+.headline {
+  line-height: 32px;
+  color: var(--app20-sys-light-on-surface);
+  text-align: center;
+}
+.supportingText {
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.labelText1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.labelText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputText1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.inputText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--m3-body-large-size);
+  color: var(--app20-sys-light-on-surface);
+}
+.content {
+  flex: 1;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.stateLayer,
+.textField1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer {
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+}
+.textField1 {
+  background-color: var(--color-gainsboro-100);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.activeIndicator {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--app20-sys-light-on-surface-variant);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.supportingText2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.supportingText1 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textField,
+.titleDescription {
+  display: flex;
+  flex-direction: column;
+}
+.textField {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 264px;
+  height: 56px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--m3-label-medium-size);
+}
+.titleDescription {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-5xl) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.divider1 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-outline-variant);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.divider,
+.horizontalfullWidth {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.divider {
+  padding: var(--padding-base) 0 0;
+  justify-content: flex-start;
+}
+.labelText2 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.stateLayer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer1 {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.button {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.actions,
+.actions1,
+.basicDialog {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.actions1 {
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-5xl)
+    var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.actions,
+.basicDialog {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.actions {
+  align-self: stretch;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--app20-sys-light-primary);
+}
+.basicDialog {
+  position: absolute;
+  top: 366px;
+  left: 509px;
+  border-radius: var(--br-9xl);
+  background: linear-gradient(rgba(43, 107, 40, 0.11), rgba(43, 107, 40, 0.11)),
+    #fcfdf6;
+  width: 312px;
+}
+.vincularTienda {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--m3-headline-small-size);
+  color: var(--app20-sys-light-on-surface-variant);
+  font-family: var(--m3-label-large);
+}
